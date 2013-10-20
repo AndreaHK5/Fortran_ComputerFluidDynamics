@@ -1,0 +1,13 @@
+Check the orthogonality of the grid
+
+ MAX  0.00462962963 7 7 1
+ g12max = 0.0000E+00 i =   1 j =   1 k =   1
+
+ g13max = 0.0000E+00 i =   1 j =   1 k =   1
+
+ g23max = 0.0000E+00 i =   1 j =   1 k =   1
+
+
+Check closedness of cells
+ig =   1
+ max. dev. = 0.0000E+00 at i =   1 j =   1 k =   1

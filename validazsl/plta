@@ -1,0 +1,25 @@
+reset
+set term postscript landscape enhanced monochrome solid "Helvetica" 14
+
+set output 'slvalidation1.ps'
+set nokey
+
+
+#set title 'correlation analysis on kinetic energy'
+set ylabel 'correlation parameter'
+set xlabel 'time s'
+plot 'corrvel' u 1:5 w l
+set output 'sl.ps'
+#set title 'correlation analysis on spanwise vorticity (optional)'
+plot 'corrvort' u 1:3 w l
+
+
+
+#set title 'power spectrum analysis on spanwise vorticity'
+set output 'slvalidation2.ps'
+set ylabel 'vertical vorticity magnitude'
+set xlabel 'frequency Hz'
+set xrange [0:600]
+plot 'slstudy' u 1:6 w l
+
+reset

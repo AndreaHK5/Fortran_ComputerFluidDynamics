@@ -1,0 +1,34 @@
+ set term postscript landscape enhanced monochrome solid "Helvetica"14
+ set nokey 
+
+reset
+ set output 'wakevalidaz1.ps'
+set nokey
+set notitle
+# set title 'correlation analysis on kinetic energy'
+ set ylabel 'correlation parameter'
+ set xlabel 'time s'
+ plot 'corrvel' u 1: 5 w l
+
+ set output 'wakevalidaz2.ps' 
+# set title 'power spectrum analysis on vertical vorticity'
+ set ylabel 'vertical vorticity magnitude'
+ set xlabel 'frequency Hz'
+ plot 'slstudy' u 1:7 smooth csplines
+
+ set output 'wakevalidaz.ps' 
+ set title 'power spectrum analysis on vertical vorticity'
+ plot 'slstudy' u 1:7 w l 
+ set title 'power spectrum analysis on kinetic energy' 
+ set ylabel 'vertical vorticity magnitude [1/s]'
+ set xlabel 'frequency Hz'
+ plot 'slstudy' u 1:8 w l
+ plot 'slstudy' u 1:8 smooth csplines 
+ 
+ set term x11
+ 
+  
+  
+ 
+ 
+ 

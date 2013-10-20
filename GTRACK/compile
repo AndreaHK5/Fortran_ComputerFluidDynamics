@@ -1,0 +1,2 @@
+g77 -o >&report track main.f posin.f velxyz.f velpar.f pospar.f rebound.f
+

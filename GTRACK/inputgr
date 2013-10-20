@@ -1,0 +1,16 @@
+n blocchi
+1
+dimensione del blocco
+-0.03 0.09
+-0.04 0.04
+0.0   0.09
+celle lungo x<0 e x>0
+23 69
+celle lungo y<0 e y>0
+29 29
+celle lungo z<0 e z>0
+0 51
+GinoParam
+20 40 15
+
+

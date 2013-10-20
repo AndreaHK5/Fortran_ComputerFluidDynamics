@@ -1,0 +1,1 @@
+g77 -o >&report run griglia.f ginomkr.f metrica.f 

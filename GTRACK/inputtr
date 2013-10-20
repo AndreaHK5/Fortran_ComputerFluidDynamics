@@ -1,0 +1,21 @@
+ 1000 ........ particle density (ROP)
+ 1.4 ........ fluid density (ROF)
+ 1.29E-5 ........ kinematic viscosity of fluid (KVF)
+ 1E-6 ........ particle diameter (DD)
+ 0. ......... gravity acceleration in x direction (GAx)
+ 0. .........gravity acceleration in y direction (GAy)
+ -9.81 ...........gravity acceleration in z direction (GAz)
+ 1.E-4 ........ iteration error (EPS)
+ 1.E-4 ...time step (DT)
+ 1000 ........ particles number (nm)
+ 0.005 ......... r to place parts (maxR)
+ 0.0003 ........ lenght to lace parts (str)
+ 360 .......... angle where to put parts (th)
+ 1 ........ initial velocity flag (SI)
+ 0 ........ start case flag (INIT)
+ 00000 ...... first time step (first)
+ 00000 ...... last itme step (last)
+ 00000 ...... step between (step)
+ 0 1 0 1 1 1 ....faces rebound status
+
+

@@ -1,0 +1,5 @@
+      parameter(il = 110, jl = 160, kl = 72, ng = 3,ncm=160)
+      parameter(il2 = 2*il+1, jl2 = 2*jl+1, kl2 = 2*kl+1)
+      parameter(error=1.e-28)
+
+

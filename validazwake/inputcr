@@ -1,0 +1,11 @@
+13800 .......... primo rst periodo in studio
+18000 .......... ultimo rst periodo in studio
+  100  .......... step tra gli rst disponibili
+24000 .......... fine del campione
+3e-5 ............. time step (quello in datainS, il programma fa il calcolo)
+.005 ............. x del punto della sonda
+-.005 ............. y della sonda
+.005 ............. z della sonda
+2.57 ............ velocità rif per l'adimensionalizzazione (1 x nn adm)
+257 ............ vorticità rif per l'adimensionalizzazione (1 x nn adm)
+1 .............. flag for rstk (0= using rst files)
